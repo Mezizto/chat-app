@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Chat App</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {display: none;}
+  </style>
+</head>
+<body>
+  <!-- <div class="back-color-left"></div>
+  <div class="back-color-right"></div> -->
+  <div class="container">
+    <div class="back-color-left"></div>
+    <div class="back-color-right"></div>
+    <section class="phone-container">
+      <div class="phone">
+        <header>
+          <div class="white"></div>
+            <div class="header-content">
+              <svg class="angle-left" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+              <img class="avatar" src="./images/avatar.jpg" alt="Samuel Green">
+              <div class="header-text">
+                <h1 class="header-h1">Samuel Green</h1>
+                <p class="header-p">Available to Walk</p>
+              </div>
+            <svg class="dots" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 128 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/></svg>
+          </div>
+        </header>
+
+        <main>
+          <p class="p-left p-left-one">That sounds great. I’d be happy with that.</p>
+          <p class="p-left p-left-two">Could you send over some pictures of your dog, please?</p>
+          <div class="dogs">
+            <img class="dog-img" src="./images/dog-image-1.jpg" alt="Dog Image 1">
+            <img class="dog-img" src="./images/dog-image-2.jpg" alt="Dog Image 2">
+            <img class="dog-img" src="./images/dog-image-3.jpg" alt="dog-image-3">
+          </div>
+          <div class="p-right-div">
+            <div class="p-right-div-one">
+              <p class="p-right p-right-one">Here are a few pictures. She’s a happy girl!</p>  
+            </div>
+            <div class="p-right-div-two">
+              <p class="p-right p-right-two">Can you make it?</p>
+            </div>
+          </div>
+          <p class="p-left p-left-three">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+          <div class="pricing">
+            <svg class="circle" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+            <p class="p-pricing"> 30 minute walk </p><span class="span-one">$29</span>
+          </div>
+          <div class="pricing">
+            <svg class="circle" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+            <p class="p-pricing">1 hour walk </p><span class="span-two">$49</span>
+          </div>
+          <div class="input-div">
+            <input type="text" placeholder="Type a message...">
+            <div class="angle-right">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg>
+            </div>
+          </div>
+          <!-- <p>Type a message…</p> -->
+
+        </main>
+      </div>
+    </section>
+    <section class="commercial">
+      <h1 class="commercial-h1">Simple booking</h1>
+
+      <p class="commercial-p">Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.
+      </p>
+    </section>
+
+  </div>
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mezizto</a>.
+  </div>
+</body>
+</html>
